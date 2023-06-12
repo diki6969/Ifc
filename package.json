@@ -1,6 +1,6 @@
 {
     "name": "rtxzy",
-    "version": "5.0.7",
+    "version": "6.2.1",
     "description": "Customizable WhatsApp Bot",
     "depecrated": false,
     "main": "index.js",
@@ -12,7 +12,7 @@
     "scripts": {
         "start": "node index.js --autocleartmp --autoread",
         "test": "node test.js",
-        "test2": "nodemon index.js --server --autocleartmp"
+        "test2": "nodemon index.js --server --autocleartmp --autoread"
     },
     "keywords": [
         "whatsapp-bot-md",
@@ -22,7 +22,7 @@
         "whatsapp",
         "Games-wabot",
         "wabot-aq",
-        "multi-device",
+        "whiskeysockets",
         "BOTCAHX",
         "baileys"
     ],
@@ -37,12 +37,13 @@
     "bugs": {
         "url": "https://github.com/BOTCAHX/RTXZY-MD/issues"
     },
-    "license": "GPL-3.0-or-later",
+    "license": "MIT",
     "dependencies": {
-        "@adiwajshing/baileys": "npm:baileys@6.0.8",
+        "@adiwajshing/baileys": "npm:@whiskeysockets/baileys@6.2.1",
         "@adiwajshing/keyed-db": "^0.2.4",
         "@bochilteam/scraper": "^3.0.0",
         "@vitalets/google-translate-api": "^9.0.0",
+        "@xct007/frieren-scraper": "^0.0.2",
         "acrcloud": "^1.4.0",
         "api-dylux": "^1.2.2",
         "javascript-obfuscator": "^4.0.2",
@@ -55,16 +56,17 @@
         "carbon-now-scraper": "^1.0.1",
         "cheerio": "^1.0.0-rc.12",
         "colors": "1.4.0",
+        "express": "^4.18.2",
         "file-type": "^16.5.3",
         "form-data": "^4.0.0",
         "g-i-s": "^2.1.6",
         "google-it": "^1.6.3",
         "human-readable": "^0.2.1",
         "hxz-api": "^1.0.1",
-        "instagram-url-direct": "^1.0.13",
         "jsdom": "^20.0.0",
         "lodash": "^4.17.21",
         "lowdb": "^2.1.0",
+        "link-preview-js": "^3.0.4",
         "moment-timezone": "^0.5.37",
         "mongoose": "^6.0.14",
         "node-fetch": "3.0.0-beta.9",

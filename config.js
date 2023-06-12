@@ -1,12 +1,6 @@
+/**Penjelasan: Untuk menggunakan script ini, kamu akan perlu mengganti nomor owner dan wm terlebih dahulu. Kamu juga harus memiliki api key dari kedua website ini https://api.botcahx.live dan https://api.betabotz.me. Setelah memiliki api key, kamu bisa menggantinya dengan menyalin key tersebut dari profilmu dan paste di variabel global.btc. Contohnya, global.btc = 'xzRhejka'. Setelah itu, kamu bisa melanjutkan dengan mengubah nomor owner dan wm.
+**/
 
-// - Ubah nomor owner dan wm di sini.
-// + Daftar apikey terlebih dahulu sebelum menggunakan svript ini link
-  // https://api.botcahx.live
-//https://api.betabotz.me
-// - Jika sudah mendaftar salin key yang ada di profie dan paste di global.btc
-// - Contoh global.btc = 'xzRhejka'
-// global.lann = 'trial'
-// - Jika sudah maka lanjutkan untuk mengubah nomor owner dan wm.
 
 global.owner = ['6281395861695']  
 global.mods = ['6281395861695'] 
@@ -33,16 +27,16 @@ global.salah = 'Salah ❌\n'
 global.stiker_wait = '*⫹⫺ Stiker sedang dibuat...*'
 global.packname = 'Made with'
 global.author = 'Bot WhatsApp'
-global.alpiskey = '8ecfc216' //daftar sendiri jika key habis https://alpis.eu.org
+global.alpiskey = 'YOUR_APIKEY_HERE' //daftar sendiri jika key habis https://alpis.eu.org
 
-global.btc = 'YOURKEY' //Daftar terlebih dahulu https://api.botcahx.live
-global.lann = 'trial' //Note Key Ini Hanya Bertahan Selama 4 Day Sejak Config.js update! lebih baik register di https://api.betabotz.me
+global.btc = 'YOUR_APIKEY_HERE' //Daftar terlebih dahulu https://api.botcahx.live
+global.lann = 'YOUR_APIKEY_HERE' //Note Key Ini Hanya Bertahan Selama 4 Day Sejak Config.js update! lebih baik register di https://api.betabotz.me
 global.APIs = { 
   tio: 'https://api.botcahx.live',
   alpis: 'https://alpis.eu.org'
 }
 global.APIKeys = { 
-  'https://api.botcahx.live': 'YOURKEY' //isi apikey mu https://api.botcahx.live
+  'https://api.botcahx.live': 'YOUR_APIKEY_HERE' //isi apikey mu https://api.botcahx.live
 }
 
 global.multiplier = 45

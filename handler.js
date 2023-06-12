@@ -14,7 +14,7 @@ module.exports = {
         if (chatUpdate.messages.length > 1) console.log(chatUpdate.messages)
         let m = chatUpdate.messages[chatUpdate.messages.length - 1]
         if (!m) return
-        console.log(JSON.stringify(m, null, 4))
+        //console.log(JSON.stringify(m, null, 4))
         try {
             m = simple.smsg(this, m) || m
             if (!m) return
@@ -690,7 +690,7 @@ module.exports = {
              } catch (e) {
                  console.log(m, m.quoted, e)
              }
-            if (opts['autoread']) await this.readMessages([m.key]) //this.chatRead(m.chat, m.isGroup ? m.sender : undefined, m.id || m.key.id).catch(() => { })
+            if (opts['autoread']) await this.readMessages([m.key])
         }
     },
      async participantsUpdate({ id, participants, action }) {
