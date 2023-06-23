@@ -7,12 +7,13 @@
 - Fix Downloader 
 - Penambah output url agar bisa di jalankan di replit/render
 
-- Menghubungkan RestApi sebagai media downloader
+- Menggunakan 60% fitur dari [`RestApi`](https://api.botcahx.live) sebagai media downloader
 
 
 **Apikey :**
-- [✓] Free ApiKey 100 Request (/day)
+- [✓] Free ApiKey 10 Request (/day)
 - [✓] Premium ApiKey 5000 Request (for 1 month)
+- Jika ingin membeli ApiKey Premium silahkan hubungi saya [`Nomor`](https://wa.me/6282221792667?text=permisi+mau+beli+premium+apikey)
 
 **Website Api :**
 - BOTCAHX [`Register`](https://api.botcahx.live)
@@ -26,9 +27,6 @@
 
 <a href="https://sociabuzz.com/tioclkp02" target="_blank"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" height="32px" alt="Sociabuzz"></a>
 
-### `Replit`
-
-[![Run on Repl.it](https://repl.it/badge/github/BOTCAHX/RTXZY-MD)](https://repl.it/github/BOTCAHX/RTXZY-MD) 
 
 ### `Render`
 
