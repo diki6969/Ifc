@@ -17,16 +17,15 @@ let levelling = require('../lib/levelling')
 let tags = {
   'main': 'MENU UTAMA',
   'downloader': 'MENU DOWNLOADER',
-  'download': 'SOUNDCLOUD',
   'sticker': 'MENU CONVERT',
   'advanced': 'ADVANCED',
-  'anime': 'MENU ANIME',
   'xp': 'MENU EXP',
   'fun': 'MENU FUN',
   'game': 'MENU GAME',
   'github': 'MENU GITHUB',
   'group': 'MENU GROUP',
   'image': 'MENU IMAGE',
+  'nsfw': 'MENU NSFW',
   'info': 'MENU INFO',
   'internet': 'INTERNET',
   'islam' : 'MENU ISLAMI',
@@ -36,14 +35,13 @@ let tags = {
   'Pengubah Suara': 'PENGUBAH SUARA',
   'premium': 'PREMIUM MENU',
   'quotes' : 'MENU QUOTES',
-  'rpg': 'MENU RPG',
   'stalk': 'MENU STALK',
   'shortlink': 'SHORT LINK',
   'tools': 'MENU TOOLS',
   'anonymous': 'ANONYMOUS CHAT',
   'admin': 'ADMIN', 
   'bokep': 'FILE', 
-  '': 'No Category',
+  '': 'NO CATEGORY',
 }
 const defaultMenu = {
   before: `
@@ -169,8 +167,8 @@ text = typeof conn.menu == 'string' ? conn.menu : typeof conn.menu == 'object' ?
                         mediaType: 1,
                         previewType: 0,
                         renderLargerThumbnail: true,
-                        thumbnailUrl: 'https://telegra.ph/file/dc5a67d724b016574129b.jpg',
-                        sourceUrl: ''
+                        thumbnailUrl: 'https://telegra.ph/file/3a34bfa58714bdef500d9.jpg',
+                        sourceUrl: 'https://api.botcahx.live'
                     }
                 }, mentions: [m.sender]
 }}, {})

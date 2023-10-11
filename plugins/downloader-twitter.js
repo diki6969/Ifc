@@ -7,16 +7,14 @@ var handler = async (m, {
 }) => {
 if (!args[0]) throw `Masukan URL!\n\ncontoh:\n${usedPrefix + command} https://twitter.com/gofoodindonesia/status/1229369819511709697`
 if (!args[0].match(/twitter/gi)) throw `URL Tidak Ditemukan!`
-m.reply('wait')
- var apis = await fetch(`https://api.botcahx.live/api/dowloader/twitter?url=${args[0]}&apikey=${btc}`)
-if (!apis.ok) throw await apis.text()
-var jsons = await apis.json()
-if (!jsons.status) throw jsons
-var { 
-desc, 
-HD } = jsons.result
-await conn.sendFile(m.chat, HD, 'tiovid.mp4', `
-*Deskripsi*: ${desc}`, m)
+m.reply(wait)
+try {
+        const api = await fetch(`https://api.botcahx.live/api/dowloader/twitter?url=${args[0]}&apikey=${btc}`)
+        const res = await api.json()
+        conn.sendFile(m.chat, res.result.url[0].hd, null, `*Twitter Downloader*`, m)
+    } catch (e) {
+        throw `*Server Down!*`
+    }
 };
 handler.command = handler.help = ['twitter','twitdl','twitterdl'];
 handler.tags = ['downloader'];

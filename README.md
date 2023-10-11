@@ -2,16 +2,23 @@
 
 **Pembaruan :**
 - Telah menggunakan multi auth sessions 
-- Fix QR code di terminal
+- Fix QR code di terminal & pairing code
+- ```node . --pairing```
 - Fix console logs pesan masuk 
 - Fix Downloader 
-- Penambah output url agar bisa di jalankan di replit/render
+- Penambah output url agar bisa di jalankan di render dsb.
 
+  ## Note!
+  **Important :**
+  
+- Untuk menggunakan bot ini, kamu diwajibkan mengisi ApiKey terlebih dahulu. Jika tidak mengisinya, bot tidak akan berfungsi dengan baik.
+- Tidak disarankan menginstal bot ini di termux atau panel yang tidak mempunyai kelengkapan express, puppeteer, ffmpeg, imagemagick, webp.
+  
 - Menggunakan 60% fitur dari [`RestApi`](https://api.botcahx.live) sebagai media downloader
 
 
 **Apikey :**
-- [✓] Free ApiKey 10 Request (/day)
+- [✓] Free ApiKey 15 Request (/day)
 - [✓] Premium ApiKey 5000 Request (for 1 month)
 - Jika ingin membeli ApiKey Premium silahkan hubungi saya [`Nomor`](https://wa.me/6282221792667?text=permisi+mau+beli+premium+apikey)
 
@@ -21,8 +28,10 @@
 - Setelah mendapatkan ApiKey dari kedua website tersebut silahkan paste di config.js pada line global.btc dan global.lann
 
 
- 
+## Group Bot
+- Group Bot [`Join`](https://chat.whatsapp.com/Ln2vHjRrRayAbzalRMB56r)
 
+- Group Bebas [`Join`](https://chat.whatsapp.com/JAi5AMaxdFLH0s2pH2RcUJ)
 ## Support
 
 <a href="https://sociabuzz.com/tioclkp02" target="_blank"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" height="32px" alt="Sociabuzz"></a>
@@ -52,11 +61,17 @@ Original base [`Link`](https://github.com/HelgaIlham/ZukaBet)
 * Unduh & Instal FFmpeg [`Klik Disini`](https://ffmpeg.org/download.html) (**Jangan Lupa Tambahkan FFmpeg ke variabel lingkungan PATH**)
 * Unduh & Instal ImageMagick [`Klik Disini`](https://imagemagick.org/script/download.php)
 
-```bash
+```javascript
 git clone https://github.com/BOTCAHX/RTXZY-MD
 cd RTXZY-MD
 npm i
 npm start
+```
+```javascript
+// to get pairing code //
+
+node index.js --pairing
+
 ```
 
 
